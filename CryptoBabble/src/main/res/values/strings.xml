@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CryptoBabble</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="title_username_preference">Display Name</string>
+    <string name="summary_username_preference">Pick a name to use as your chat alias.</string>
+    <string name="app_preferences">General</string>
+    <string name="title_screen_app_preference">Messaging</string>
+    <string name="summary_screen_app_preference">Configure Settings for Messaging</string>
+    <string name="title_screen_app_showpictures_preference">Show User Photo</string>
+    <string name="summary_screen_app_showpictures_preference">Show user images next to chat messages.</string>
+    <string name="title_user_image_preference">Profile photo</string>
+    <string name="summary_user_image_preference">Choose an image to appear next to your chat messages.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

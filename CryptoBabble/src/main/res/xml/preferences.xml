@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <PreferenceCategory
+            android:title="@string/user_preferences">
+
+        <Preference
+                android:key="user_image_preference"
+                android:title="@string/title_user_image_preference"
+                android:summary="@string/summary_user_image_preference" />
+
+        <EditTextPreference
+                android:key="username_preference"
+                android:title="@string/title_username_preference"
+                android:summary="@string/summary_username_preference" />
+
+    </PreferenceCategory>
+
+    <!--PreferenceCategory
+            android:title="@string/app_preferences"-->
+
+        <!-- This PreferenceScreen tag serves as a screen break (similar to page break
+             in word processing). Like for other preference types, we assign a key
+             here so it is able to save and restore its instance state. -->
+        <PreferenceScreen
+                android:key="screen_app_preference"
+                android:title="@string/title_screen_app_preference"
+                android:summary="@string/summary_screen_app_preference">
+
+            <!-- You can place more preferences here that will be shown on the next screen. -->
+
+            <CheckBoxPreference
+                    android:key="screen_app_showpictures_preference"
+                    android:defaultValue="true"
+                    android:title="@string/title_screen_app_showpictures_preference"
+                    android:summary="@string/summary_screen_app_showpictures_preference" />
+
+        </PreferenceScreen>
+
+    <Preference
+        android:key="about_preference"
+        android:title="About CryptoBabble"
+        android:summary="" />
+
+    <!--/PreferenceCategory-->
+
+</PreferenceScreen>
